@@ -1,11 +1,11 @@
 import os
 
-from src.config import RESUME_FOLDER
-from src.loaders.resume_loader import load_resume
-from src.processing.chunker import chunk_document
-from src.processing.metadata_extractor import extract_metadata
-from src.embeddings.embedding_model import generate_embeddings
-from src.vectordb.chroma_store import store_embeddings
+from config import RESUME_FOLDER
+from resume_loader import load_resume
+from chunker import chunk_document
+from metadata_extractor import extract_metadata
+from embedding_model import generate_embeddings
+from chroma_store import store_embeddings
 
 
 def build_resume_rag():
