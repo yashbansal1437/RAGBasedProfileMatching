@@ -1,5 +1,5 @@
 import chromadb
-from src.config import VECTOR_DB_NAME
+from config import VECTOR_DB_NAME
 
 client = chromadb.Client()
 
