@@ -1,6 +1,6 @@
-from src.retrieval.semantic_search import search
-from src.matching.scoring import compute_score
-from src.config import TOP_K_RESULTS
+from semantic_search import search
+from scoring import compute_score
+from config import TOP_K_RESULTS
 
 
 def match_job(job_description):
