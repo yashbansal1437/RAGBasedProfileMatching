@@ -1,5 +1,5 @@
-from src.vectordb.chroma_store import collection
-from src.embeddings.embedding_model import model
+from chroma_store import collection
+from embedding_model import model
 
 
 def search(job_description, top_k):
