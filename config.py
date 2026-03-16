@@ -1,0 +1,10 @@
+RESUME_FOLDER = "data/resumes"
+
+VECTOR_DB_NAME = "resume_collection"
+
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 100
+
+TOP_K_RESULTS = 10
